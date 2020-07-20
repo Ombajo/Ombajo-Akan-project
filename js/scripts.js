@@ -108,12 +108,13 @@ const addData = (event) => {
     console.log('added', { data });
     let well = document.querySelector('#msg #well');
     //well.textContent = '\n' + JSON.stringify(data, '\t', 2);
-    alert(' Your Akan name: ' + akanName)
-    return well.innerHTML = akanName
-
+    alert(' Your Akan name is: ' + akanName)
 
     //saving to localStorage
     localStorage.setItem('Akan_Names_Stored', JSON.stringify(akanName));
+
+    // Output back to the user
+    return well.innerHTML = akanName 
 
     // saving to a text file
     // function download(content, fileName, contentType) {
@@ -123,7 +124,7 @@ const addData = (event) => {
     //     a.download = fileName;
     //     a.click();
     // }
-    // download(jsonData, 'json.txt', 'text/plain');
+    // download(data, 'json.txt', 'text/plain');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
