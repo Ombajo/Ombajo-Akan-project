@@ -16,7 +16,7 @@ Javascript
 https://ombajo.github.io/akan-project/
 
 ## Contact information.
-Tel. no: +254-714-294194
+Tel no: +254-714-294194
 Email: jairombajo@gmail.com
 
 ### License
