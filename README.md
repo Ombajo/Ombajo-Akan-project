@@ -1,4 +1,4 @@
-# Akan Project
+# Akan | Web Project
 
 #### v 1.0.0 
 
