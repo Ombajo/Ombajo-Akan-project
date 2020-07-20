@@ -1,0 +1,16 @@
+/*
+ * CSS
+ * Author: Ombajo
+ */
+
+ .jumbotron {
+    display: flex inline;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+}
+
+#msg #well {
+    background-color: #EEE4E4;
+    max-height: 280px;
+}
