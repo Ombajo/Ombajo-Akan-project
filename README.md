@@ -5,7 +5,7 @@
 #### Author: Ombajo
 
 ## Description
-Web application
+Web UI application for showing users their Akan names - derived from Ghananian culture - in relation to the day of the week of their birth dates
 
 ## Technologies Used
 HTML 
