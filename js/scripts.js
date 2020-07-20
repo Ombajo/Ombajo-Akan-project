@@ -80,7 +80,7 @@ const addData = (event) => {
     console.log(YY)
 
     // Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
-    var dy = Math.trunc(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
+    var dy = Math.abs(Math.trunc(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7);
 
     console.log(dy)
     // where;
