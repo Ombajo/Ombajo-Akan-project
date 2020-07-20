@@ -13,7 +13,7 @@ CSS
 Javascript
 
 ## Link
-https://ombajo.github.io/akan-project/
+https://ombajo.github.io/Ombajo-Akan-project
 
 ## Contact information.
 Tel no: +254-714-294194
