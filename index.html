@@ -10,6 +10,39 @@
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
+        <div id="container" class="container">
+            <div class="row" id="info">
+                <div class="jumbotron mt-2">
+                    <h1>Akan Project</h1>
+                    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name
+                        as a 'day name'
+                        which corresponds to the day in the week they were born. Here are Ghanian day names. This web
+                        application to show you your
+                        'Akan' name when you submit your date of birth
+                    </p>
+                </div>
+            </div>
+            <div class="form" id="mainForm">
+                <div class="form-group">
+                    <label for="day">Date of birth:</label>
+                    <input type="date" name="day" id="day" class="form-control" placeholder="" aria-describedby="helpId"
+                        required="true">
+                </div>
+                <div class="form-group">
+                    <label for="year">Gender</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" id="submit" class="form-control btn btn-primary" onclick="">
+                </div>
+            </div>
+            <div id="msg">
+                <div id="well" class="well well-lg form-control" wrap="hard"></div>
+            </div>
+        </div>
         <!-- JS, Popper.js, and jQuery -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
